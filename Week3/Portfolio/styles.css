@@ -87,6 +87,11 @@ footer h2 {
     background-color: var(--almond-silk);
     padding: 16px;
     border-radius: 8px;
+    transition: box-shadow 500ms ease;
+}
+
+.cards > div:hover {
+    box-shadow: 8px 8px var(--baltic-blue);
 }
 
 .cards h3 {
