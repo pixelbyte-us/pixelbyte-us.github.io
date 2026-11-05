@@ -1,0 +1,62 @@
+:root {
+    --holiday-orange: #f2d9bf;
+    --holiday-darkerorange: #e1a66a;
+    --baltic-blue: #145c9eff;
+    --yale-blue: #0b4f6cff;
+
+}
+
+body {
+    background-color: var(--holiday-orange);
+    font-family: "Archivo", sans-serif;
+    color: var(--baltic-blue);
+    
+}
+
+.cards {
+    width: 500px;
+    height: 750px;
+    background-color: var(--holiday-darkerorange);
+    padding: 36px;
+    border-radius: 12px;
+    transition: background-color 300ms ease, box-shadow 300ms ease;
+
+}
+
+.cards:hover {
+    box-shadow: 8px 8px var(--yale-blue);
+}
+
+.image {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 12px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  line-height: 1.6; 
+}
+
+.image-button {
+    display: flex;
+    justify-content: center;
+}
+
+.image-button a {
+    padding: 12px 24px;
+    background-color: var(--yale-blue);
+    color: white;
+    transition: background-color 300ms ease, box-shadow 300ms ease;
+}
+
+.image-button a:hover {
+    background-color: var(--baltic-blue);
+    box-shadow: 8px 8px var(--yale-blue);
+}
+
+footer {
+    text-align: right;
+    margin-top: 50px;
+}
