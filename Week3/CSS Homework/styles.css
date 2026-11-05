@@ -13,7 +13,7 @@ body {
     
 }
 
-.cards {
+.card {
     width: 500px;
     height: 750px;
     background-color: var(--holiday-darkerorange);
@@ -23,20 +23,28 @@ body {
 
 }
 
-.cards:hover {
+.card:hover {
     box-shadow: 8px 8px var(--yale-blue);
 }
 
-.image {
+#raccoon-image {
     width: 100%;
     height: 300px;
+    object-fit: cover;
     margin-bottom: 12px;
 }
 
+h1 {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    color: var(--baltic-blue);
+}
+
 p {
-  margin-top: 0;
-  margin-bottom: 1.25rem;
-  line-height: 1.6; 
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    line-height: 1.6;
 }
 
 .image-button {
@@ -45,6 +53,7 @@ p {
 }
 
 .image-button a {
+    font-family: "Roboto", sans-serif;
     padding: 12px 24px;
     background-color: var(--yale-blue);
     color: white;
