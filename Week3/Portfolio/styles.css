@@ -1,0 +1,122 @@
+
+/*
+.archivo-<uniquifier> {
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*/
+
+/* colors */
+
+:root {
+  --charcoal-brown: #1f271bff;
+  --yale-blue: #0b4f6cff;
+  --baltic-blue: #145c9eff;
+  --pale-oak: #cbb9a8ff;
+  --almond-silk: #dcc7beff;
+
+}
+
+body {
+    font-family: "Archivo", sans-serif;
+    color: var(--charcoal-brown);
+    background-color: var(--almond-silk);
+    background-image: url(./assets/css-pattern-by-magicpattern.png);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+header {
+    font-family: "Roboto", sans-serif;
+    color: var(--charcoal-brown);
+    background-color: var(--pale-oak);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Portfolio title */
+.title {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--pale-oak);
+    font-size: 48px;
+    font-weight: 700;
+    margin: 32px 0;
+}
+
+/* At a glance */
+.atAGlance,
+.education {
+    background-color: var(--pale-oak);
+    padding: 24px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.atAGlance h2,
+.education h2,
+footer h2 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+}
+
+.cards > div {
+    background-color: var(--almond-silk);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.cards h3 {
+    margin-top: 0;
+}
+
+/* Education history */
+.education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education li {
+    margin: 12px 0;
+    line-height: 1.5;
+}
+
+.year {
+    display: inline-block;
+    min-width: 4em;
+    font-weight: bold;}
+
+/* Contact footer */
+footer {
+    background-color: var(--pale-oak);
+    padding: 20px 24px;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+
+footer h3 {
+    margin-bottom: 0;
+}
